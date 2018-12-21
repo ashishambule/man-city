@@ -2,22 +2,24 @@
 import React from 'react';
 
 import { CityLogo} from '../ui/icons';
+
 const Footer = () => {
     return (
-        <Footer className="bck_blue">
+        <footer className="bck_blue">  
             <div className="footer_logo">
-            
+
                 <CityLogo
-                    link={true}
-                    linkTo='/'
+                    
                     width='70px'
                     height='70px'
+                    link={true}
+                    linkTo='/'
                 />
             </div>
-            <div className="footer_disci">
+            <div className="footer_disc">
                 Manchester city 2018. All rights reserved.
             </div>
-        </Footer>
+        </footer>
     );
 };
 

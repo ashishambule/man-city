@@ -17,7 +17,7 @@ a {
     background: #0d1831;
 }
 
-.bck_lblue {
+    .bck_lblue {
     background: #98c5e9;
 }
 
@@ -164,9 +164,10 @@ footer .footer_discl {
 .featured_wrapper {
     margin: 0 auto;
     width: 1280px;
-    margin-top: 90px;
+    margin-top: 77px;
     height: 800px;
     overflow: hidden;
+    margin-bottom: -16px;
 }
 
 .featured_stripes {

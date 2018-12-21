@@ -1,9 +1,13 @@
 import React from 'react';
 
+import Stripes from './Stripes';
+import Text from './Text';
+
 const Featured = (props) => {
     return (
         <div className="featured_wrapper">
-            something
+            <Stripes/>
+            <Text/>
         </div>
     );
 };
